@@ -1,0 +1,176 @@
+
+body {
+    font-family: 'Droid Serif', serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin:0;
+	padding:0;
+    background: #2980b9 url(images/bg.png) repeat 0 0;
+	-webkit-animation: 20s linear 0s normal none infinite animate;
+	-moz-animation: 20s linear 0s normal none infinite animate;
+	-ms-animation: 20s linear 0s normal none infinite animate;
+	-o-animation: 20s linear 0s normal none infinite animate;
+	animation: 20s linear 0s normal none infinite animate;
+ 
+}
+
+
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 50%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.quote{
+    color: white;
+    text-align: left;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fpara{
+    color: floralwhite;
+    text-align: left;
+    width: 40%;
+    margin-left: 4%;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    margin-top: 60px;
+    
+    
+}
+
+.spara{
+    color: black;
+    text-align: left;
+    width: 40%;
+    margin-right: 4%;
+    float: right;
+    margin-top: 3%;
+}
+
+.fimage{
+    float: right;
+    width: 54%;
+    height: 100%;
+    margin: 0;
+    background-image: url(images/bird.jpg);
+    background-size: cover;
+    
+}
+
+blockquote {
+  background: #1775b4;
+  border-left: 10px solid #0f6dad;
+  color: white;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+}
+blockquote:before {
+  color: white;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after{
+  color: white;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+  padding-top: 10px;
+}
+
+blockquote p {
+  display: inline;
+}
+
+h1{
+    font-size: 28px;
+    text-align: center;
+   
+    
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
