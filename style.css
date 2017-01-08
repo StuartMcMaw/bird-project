@@ -14,8 +14,6 @@ body {
  
 }
 
-
- 
 @-webkit-keyframes animate {
 	from {background-position:0 0;}
 	to {background-position: 500px 0;}
@@ -40,8 +38,17 @@ body {
 	from {background-position:0 0;}
 	to {background-position: 500px 0;}
 }
-}
 
+
+
+.myContent{
+    height: 100px;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
+    
+}
 
 
 .overlay {
@@ -101,11 +108,100 @@ body {
     float: left;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 20px;
-    margin-top: 60px;
+    font-size: 1.25vw;
+    display: table-cell;
+    vertical-align: middle;
     
     
 }
+
+.tpara{
+    color: floralwhite;
+    text-align: left;
+    width: 40%;
+    margin-left: 4%;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.25vw;
+    
+    
+}
+
+.extinct{
+    color: floralwhite;
+    text-align: left;
+    width: 40%;
+    margin-right: 4%;
+    float: right;
+    float: right;
+    display: table-cell;
+vertical-align: middle ;
+    font-size: 1.5vw;
+
+}
+
+.facts{
+    color: floralwhite;
+    text-align: left;
+    width: 40%;
+    margin-right: 4%;
+    float: right;
+    float: right;
+    display: table-cell;
+vertical-align: middle ;
+    font-size: 1.7vw;
+    
+
+}
+
+.table2{
+    width: 100%;
+     
+    vertical-align: middle;
+    text-align: center;
+}
+
+.full{
+    color: floralwhite;
+    text-align: left;
+    width: 40%;
+    margin-right: 7%;
+    float: right;
+    margin-top: auto;
+    margin-bottom: 100px;
+    font-size: 1.45vw;
+    float: right;
+    display: table-cell;
+vertical-align: middle;
+
+}
+
+.full2{
+    color: floralwhite;
+    text-align: left;
+    width: 40%;
+    margin-left: 7%;
+    float: left;
+    margin-top: auto;
+    margin-bottom: 100px;
+    font-size: 1.45vw;
+    margin-top: 80px;
+    display: table-cell;
+vertical-align: middle;
+    
+
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+
+
 
 .spara{
     color: black;
@@ -114,6 +210,26 @@ body {
     margin-right: 4%;
     float: right;
     margin-top: 3%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.simage{
+    float: left;
+    width: 54%;
+    height: 100%;
+    background-image: url(images/flying.jpg);
+    background-size: cover;
+    
+}
+
+.nimage{
+    float: left;
+    width: 54%;
+    height: 100%;
+    background-image: url(images/snowy.jpg);
+    background-size: cover;
+    
 }
 
 .fimage{
@@ -123,6 +239,46 @@ body {
     margin: 0;
     background-image: url(images/bird.jpg);
     background-size: cover;
+    
+}
+
+.eimage{
+    float: right;
+    width: 54%;
+    height: 100%;
+    margin: 0;
+    background-image: url(images/nz.jpg);
+    background-size: cover;
+    
+}
+
+.map{
+    float: right;
+    width: 54%;
+    height: 100%;
+    margin: 0;
+   
+    
+}
+
+.timage{
+    float: right;
+    width: 54%;
+    height: 100%;
+    margin: 0;
+    background-image: url(images/bent-billiard-pipe.jpg);
+    background-size: cover;
+    
+}
+
+
+
+.table{
+   float: left;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+   
     
 }
 
@@ -139,7 +295,7 @@ blockquote {
 blockquote:before {
   color: white;
   content: open-quote;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
@@ -148,7 +304,7 @@ blockquote:before {
 blockquote:after{
   color: white;
   content: close-quote;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 0.1em;
   margin-left: 0.25em;
   vertical-align: -0.4em;
@@ -160,17 +316,30 @@ blockquote p {
 }
 
 h1{
-    font-size: 28px;
+    font-size: 7vw;
+    
+    
+}
+
+h2{
+    font-size: 2vw;
     text-align: center;
    
     
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
+* {
+  box-sizing: border-box;
+
+
+
+/*
+@media only screen 
+and (max-width : 480px) 
+{
+    .extinct{
+        background-color: aqua;
+    }
+*/
+    
+ 
