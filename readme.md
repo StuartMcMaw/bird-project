@@ -1,4 +1,3 @@
-Takahe Bird
-================
 
-[Progress So Far](https://StuartMcMaw.github.io/bird-project/index.html)
+
+[Progress So Far](https://stuartmcmaw.com/elements)
