@@ -1,3 +1,3 @@
 
 
-[Progress So Far](https://stuartmcmaw.com/elements)
+[Progress So Far](http://stuartmcmaw.com/elements)
